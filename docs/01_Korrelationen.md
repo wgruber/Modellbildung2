@@ -516,9 +516,9 @@ Auf Details zur Berechnung der Kenngröße wird hier verzichtet. Grundlage ist w
 
 ### Polychorische Korrelation {-}
 
-um Korrelationen zwischen ordinalen Daten zu beschreiben, verwendet man die polychorische Korrelation. Dabei schätzt ma die Korrelation zwischen zwei (ordinalen) Merkmalen, die in mehr als zwei geordnete Kategorien unterteilt sind. Die Berechnung ist überaus komplex und wird hier nicht dargestellt. 
+Um Korrelationen zwischen ordinalen Daten zu beschreiben, verwendet man die polychorische Korrelation. Dabei schätzt man die Korrelation zwischen zwei (ordinalen) Merkmalen, die in mehr als zwei geordnete Kategorien unterteilt sind. Die Berechnung ist überaus komplex und wird hier nicht dargestellt.
 
-Polychorische Korrelationen  werden unter anderem verwendet,  um konfirmatorische Faktorenanalysen mit ordinalen Daten zu berechnen.  Es ist mit Programmen wie R, AMOS, LISREL oder MPlus auch möglich, ex ploratorische Faktorenanalysen  mit polychorischen Korrelationen durchzuführen.
+Polychorische Korrelationen werden unter anderem verwendet, um konfirmatorische Faktorenanalysen mit ordinalen Daten zu berechnen. Es ist mit Programmen wie R, AMOS, LISREL oder MPlus auch möglich, exploratorische Faktorenanalysen mit polychorischen Korrelationen durchzuführen. 
 
 # Lösungen {-}
 

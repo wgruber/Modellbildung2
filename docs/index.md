@@ -1,7 +1,7 @@
 ---
 title: "Statistik mit R für Fortgeschrittene"
 author: "Walter Gruber"
-date: "2019-05-01"
+date: "2019-05-09"
 description: "Statistische Modellbildung - Teil 2"
 cover-image: "Images/Cover.png"
 github-repo: wgruber/Modellbildung2

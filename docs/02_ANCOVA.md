@@ -109,7 +109,7 @@ Um die Verteilung von Daten darzustellen, kann man z.B. Boxplots für *Libido* a
 ```r
   options(digits = 3)
   
-  viagraData       <- read.delim("C:/NextCloud/DATEN/CSV_Text/ViagraCovariate.dat", header = TRUE)
+  viagraData       <- read.delim("E:/NextCloud/DATEN/CSV_Text/ViagraCovariate.dat", header = TRUE)
   viagraData$dose  <- factor(viagraData$dose, levels = c(1:3), labels = c("Placebo", "Low Dose", "High Dose"))
   
   restructuredData <- melt(viagraData,

@@ -25,15 +25,15 @@
 <meta name="author" content="Walter Gruber">
 
 
-<meta name="date" content="2019-05-01">
+<meta name="date" content="2019-05-09">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="multiple-regression.html">
-<link rel="next" href="referenzen.html">
+<link rel="prev" href="korrelationen.html">
+<link rel="next" href="multiple-regression.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -129,6 +129,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="index.html#section"></a></li>
 <li class="chapter" data-level="" data-path="vorbemerkung.html"><a href="vorbemerkung.html"><i class="fa fa-check"></i>Vorbemerkung</a></li>
 <li class="chapter" data-level="" data-path="motivation.html"><a href="motivation.html"><i class="fa fa-check"></i>Motivation</a></li>
+<li class="part"><span><b>Teil I: Variabilitäten und Korrelationen</b></span></li>
+<li class="chapter" data-level="" data-path="variabilitat.html"><a href="variabilitat.html"><i class="fa fa-check"></i>Variabilität</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html"><i class="fa fa-check"></i>Korrelationen</a><ul>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#pearson-produkt-moment-korrelation"><i class="fa fa-check"></i>Pearson Produkt Moment Korrelation</a><ul>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#beispiel-pearson-korrelation"><i class="fa fa-check"></i>Beispiel Pearson Korrelation</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#aufgabe-1"><i class="fa fa-check"></i>Aufgabe 1</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#kausalitat"><i class="fa fa-check"></i>Kausalität</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#partial--semipartialkorrelation"><i class="fa fa-check"></i>Partial- Semipartialkorrelation</a><ul>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#beispiel-partial--semipartialkorrelation"><i class="fa fa-check"></i>Beispiel Partial- Semipartialkorrelation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#korrelationstechniken"><i class="fa fa-check"></i>Korrelationstechniken</a><ul>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#spearman-und-kendall"><i class="fa fa-check"></i>Spearman und Kendall</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#biseriale-korrelation"><i class="fa fa-check"></i>Biseriale Korrelation</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#phi-koeffizient"><i class="fa fa-check"></i>Phi-Koeffizient</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#tetrachorische-korrelation"><i class="fa fa-check"></i>Tetrachorische Korrelation</a></li>
+<li class="chapter" data-level="" data-path="korrelationen.html"><a href="korrelationen.html#polychorische-korrelation"><i class="fa fa-check"></i>Polychorische Korrelation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html"><i class="fa fa-check"></i>Lösungen</a><ul>
+<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html#aufgabe_1"><i class="fa fa-check"></i>Aufgabe_1</a></li>
+<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html#aufgabe_2"><i class="fa fa-check"></i>Aufgabe_2</a></li>
+<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html#aufgabe_3"><i class="fa fa-check"></i>Aufgabe_3</a></li>
+</ul></li>
 <li class="part"><span><b>Teil II: Multiple lineare Regression</b></span></li>
 <li class="chapter" data-level="" data-path="multiple-regression.html"><a href="multiple-regression.html"><i class="fa fa-check"></i>Multiple Regression</a><ul>
 <li class="chapter" data-level="" data-path="multiple-regression.html"><a href="multiple-regression.html#definition"><i class="fa fa-check"></i>Definition</a></li>
@@ -143,9 +167,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="" data-path="multiple-regression.html"><a href="multiple-regression.html#voraussetzungen-mlr"><i class="fa fa-check"></i>Voraussetzungen MLR</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html"><i class="fa fa-check"></i>Lösungen</a><ul>
-<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html#aufgabe-slr-1-lsg"><i class="fa fa-check"></i>Aufgabe SLR 1 Lsg</a></li>
-<li class="chapter" data-level="" data-path="losungen.html"><a href="losungen.html#aufgabe-mlr-1-lsg"><i class="fa fa-check"></i>Aufgabe MLR 1 Lsg</a></li>
+<li class="chapter" data-level="" data-path="losungen-1.html"><a href="losungen-1.html"><i class="fa fa-check"></i>Lösungen</a><ul>
+<li class="chapter" data-level="" data-path="losungen-1.html"><a href="losungen-1.html#aufgabe-slr-1-lsg"><i class="fa fa-check"></i>Aufgabe SLR 1 Lsg</a></li>
+<li class="chapter" data-level="" data-path="losungen-1.html"><a href="losungen-1.html#aufgabe-mlr-1-lsg"><i class="fa fa-check"></i>Aufgabe MLR 1 Lsg</a></li>
+</ul></li>
+<li class="part"><span><b>Teil III: Dummy-Codierung</b></span></li>
+<li class="chapter" data-level="" data-path="kategorielle-pradiktoren.html"><a href="kategorielle-pradiktoren.html"><i class="fa fa-check"></i>Kategorielle Prädiktoren</a><ul>
+<li class="chapter" data-level="" data-path="kategorielle-pradiktoren.html"><a href="kategorielle-pradiktoren.html#mehrstufiger-kategorieller-pradiktor"><i class="fa fa-check"></i>Mehrstufiger kategorieller Prädiktor</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="dummy-kodierung.html"><a href="dummy-kodierung.html"><i class="fa fa-check"></i>Dummy Kodierung</a></li>
+<li class="chapter" data-level="" data-path="modelle-mit-kategoriellen-variablen.html"><a href="modelle-mit-kategoriellen-variablen.html"><i class="fa fa-check"></i>Modelle mit kategoriellen Variablen</a></li>
+<li class="part"><span><b>Teil IV: Mediatior-Analyse</b></span></li>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html"><i class="fa fa-check"></i>Mediation</a><ul>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html#konzeptuelles-modell"><i class="fa fa-check"></i>Konzeptuelles Modell</a></li>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html#effektgroen-der-mediation"><i class="fa fa-check"></i>Effektgrößen der Mediation</a></li>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html#fallbeispiel"><i class="fa fa-check"></i>Fallbeispiel</a><ul>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html#regressionsanalyse"><i class="fa fa-check"></i>Regressionsanalyse</a></li>
+<li class="chapter" data-level="" data-path="mediation.html"><a href="mediation.html#mediator-analyse"><i class="fa fa-check"></i>Mediator-Analyse</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>Teil V: Moderator-Analyse</b></span></li>
+<li class="chapter" data-level="" data-path="moderation.html"><a href="moderation.html"><i class="fa fa-check"></i>Moderation</a></li>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html"><i class="fa fa-check"></i>Konzeptuelles Modell</a><ul>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html#formale-beschreibung-des-modells"><i class="fa fa-check"></i>Formale Beschreibung des Modells</a></li>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html#zentrierung-der-variablen"><i class="fa fa-check"></i>Zentrierung der Variablen</a><ul>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html#eigenschaften-der-zentrierung"><i class="fa fa-check"></i>Eigenschaften der Zentrierung</a></li>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html#grunde-fur-zentrierung"><i class="fa fa-check"></i>Gründe für Zentrierung</a></li>
+<li><a href="konzeptuelles-modell-1.html#interpretation-der-bs">Interpretation der <span class="math inline">\(b\)</span>’s</a></li>
+<li class="chapter" data-level="" data-path="konzeptuelles-modell-1.html"><a href="konzeptuelles-modell-1.html#interaktion"><i class="fa fa-check"></i>Interaktion</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>Teil VI: Analysis of Covariance</b></span></li>
+<li class="chapter" data-level="" data-path="motivation-1.html"><a href="motivation-1.html"><i class="fa fa-check"></i>Motivation</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html"><i class="fa fa-check"></i>Kovarianzanalyse</a><ul>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#voraussetzungen"><i class="fa fa-check"></i>Voraussetzungen</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#berechnung-einer-ancova"><i class="fa fa-check"></i>Berechnung einer ANCOVA</a><ul>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#deskriptive-graphisch-und-homogenitat"><i class="fa fa-check"></i>Deskriptive, graphisch und Homogenität</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#unabhangigkeit"><i class="fa fa-check"></i>Unabhängigkeit</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#berechnung-ancova"><i class="fa fa-check"></i>Berechnung ANCOVA</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#interpretation-ancova"><i class="fa fa-check"></i>Interpretation ANCOVA</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#geplante-kontraste"><i class="fa fa-check"></i>Geplante Kontraste</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#interpretation-kovariate"><i class="fa fa-check"></i>Interpretation Kovariate</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#post-hoc-tests"><i class="fa fa-check"></i>Post hoc Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#nutzliche-graphen"><i class="fa fa-check"></i>Nützliche Graphen</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#homogenitat-der-steigung"><i class="fa fa-check"></i>Homogenität der Steigung</a></li>
+<li class="chapter" data-level="" data-path="kovarianzanalyse.html"><a href="kovarianzanalyse.html#bericht-der-ergebnisse"><i class="fa fa-check"></i>Bericht der Ergebnisse</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="referenzen.html"><a href="referenzen.html"><i class="fa fa-check"></i>Referenzen</a></li>
 </ul>
@@ -167,37 +234,128 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="losungen" class="section level1 unnumbered">
 <h1>Lösungen</h1>
-<div id="aufgabe-slr-1-lsg" class="section level2 unnumbered">
-<h2>Aufgabe SLR 1 Lsg</h2>
-<p><a href="#aufgabe-slr-1">zurück zur Aufgabenstellung</a></p>
+<div id="aufgabe_1" class="section level2 unnumbered">
+<h2>Aufgabe_1</h2>
+<pre class="sourceCode r"><code class="sourceCode r">  <span class="co"># library(Hmisc) fÃ¼r Hmisc::rcorr</span>
+  <span class="co"># library(corrplot) fÃ¼r corrplot</span>
+  <span class="co"># library(pwr)</span>
+  
+  <span class="co"># 1. Ermitteln Sie mit einer geeigneten Funktion die Korrelationen und prÃ¼fen Sie </span>
+  <span class="co">#    diese auch auf statistische Signifikanz.</span>
+    CorRes &lt;-<span class="st"> </span>Hmisc<span class="op">::</span><span class="kw">rcorr</span>(<span class="kw">as.matrix</span>(DF_Korr), <span class="dt">type=</span><span class="st">&quot;pearson&quot;</span>) <span class="co"># type can be pearson or spearman</span>
+    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">round</span>(CorRes<span class="op">$</span>r, <span class="dv">2</span>))
+    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">round</span>(CorRes<span class="op">$</span>P , <span class="dv">2</span>))
+  <span class="co"># 2. Zeichnen Sie einen Korrelationsplot mit dem Paket *corrplot*.</span>
+    corrplot<span class="op">::</span><span class="kw">corrplot</span>(<span class="kw">cor</span>(DF_Korr), <span class="dt">type=</span><span class="st">&quot;upper&quot;</span>, <span class="dt">method =</span> <span class="st">&quot;ellipse&quot;</span>)
+  <span class="co"># 3. Berechnen Sie die TeststÃ¤rke der Korrelation $r(IQ, EP)$</span>
+  <span class="co">#    (Hinweis: verwenden Sie die Funktion *pwr::pwr.r.test* des Pakets *pwr*).</span>
+    N    &lt;-<span class="st"> </span><span class="kw">dim</span>(DF_Korr)[<span class="dv">1</span>]
+    PwrA &lt;-<span class="st"> </span>pwr<span class="op">::</span><span class="kw">pwr.r.test</span>(<span class="dt">n =</span> N, <span class="dt">r =</span> <span class="fl">0.47</span>, <span class="dt">sig.level =</span> <span class="fl">0.05</span>, <span class="dt">alternative =</span> <span class="st">&#39;two.sided&#39;</span>)
+    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">data.frame</span>(<span class="dt">Kennwerte =</span> <span class="kw">unlist</span>(PwrA)))
+  <span class="co"># 4. Verwenden diese Funktion (*pwr::pwr.r.test*) um fÃ¼r eine Korrelation $r(x,y) = 0.21$ </span>
+  <span class="co">#    den optimalen Stichprobenumfang zu berechnen.  </span>
+    OptN &lt;-<span class="st"> </span>pwr<span class="op">::</span><span class="kw">pwr.r.test</span>(<span class="dt">r =</span> <span class="fl">0.21</span>, <span class="dt">sig.level =</span> <span class="fl">0.05</span>, <span class="dt">power =</span> <span class="fl">0.95</span>, <span class="dt">alternative =</span> <span class="st">&#39;greater&#39;</span>)
+    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">data.frame</span>(<span class="dt">Kennwerte =</span> <span class="kw">unlist</span>(OptN)))
+  <span class="co"># 5. PrÃ¼fen Sie mit Hilfe der Funktion *mvn* aus dem Paket *MVN* </span>
+  <span class="co">#    die Voraussetzung der bivariaten Normalverteilung der </span>
+  <span class="co">#    Variablenpaare (EP,IQ), (EP, VZ) und (EP,PA).</span>
+    <span class="co"># library(MVN)</span>
+    <span class="co"># mvn(DF_Korr[, c(&quot;EP&quot;,&quot;IQ&quot;)], multivariatePlot = &quot;persp&quot;)</span>
+    <span class="co"># mvn(DF_Korr[, c(&quot;EP&quot;,&quot;VZ&quot;)], multivariatePlot = &quot;persp&quot;)</span>
+    <span class="co"># mvn(DF_Korr[, c(&quot;EP&quot;,&quot;PA&quot;)], multivariatePlot = &quot;persp&quot;)</span>
+
+  <span class="co"># 6. Berechnen Sie die durchschnittliche Korrelation von $r_1(EP,IQ)$, $r_1(EP,VZ)$ und $r_1(EP,PA)$.</span>
+      <span class="kw">round</span>(<span class="kw">fisherz2r</span>(<span class="kw">mean</span>(<span class="kw">c</span>(<span class="kw">fisherz</span>(.<span class="dv">47</span>), <span class="kw">fisherz</span>(.<span class="dv">36</span>), <span class="kw">fisherz</span>(<span class="op">-</span>.<span class="dv">25</span>)))), <span class="dv">2</span>)
+  <span class="co"># 7. PrÃ¼fen Sie, on der Unterschied der Korrelationskoeffizienten $r(EP,IQ) = 0.47$ und $r(EP,VZ) = 0.36$</span>
+  <span class="co">#    statistisch signifikant ist. Verwenden Sie die Funktion *psych::paired.r()* aus dem Paket *psych*</span>
+    <span class="co"># library(psych)</span>
+    psych<span class="op">::</span><span class="kw">paired.r</span>(<span class="dt">xy        =</span> <span class="fl">.47</span>, 
+             <span class="dt">xz        =</span> <span class="fl">.36</span>, 
+             <span class="dt">n         =</span> N,
+             <span class="dt">twotailed =</span> <span class="ot">TRUE</span>) </code></pre>
+<p><a href="korrelationen.html#aufgabe-1">zurück zu Aufgabe</a></p>
 </div>
-<div id="aufgabe-mlr-1-lsg" class="section level2 unnumbered">
-<h2>Aufgabe MLR 1 Lsg</h2>
-<pre class="sourceCode r"><code class="sourceCode r">  album2       &lt;-<span class="st"> </span><span class="kw">read.delim</span>(<span class="st">&quot;Daten/Album Sales 2.dat&quot;</span>, <span class="dt">header =</span> <span class="ot">TRUE</span>)
-  <span class="co"># Erstes Modell</span>
-    albumSales<span class="fl">.2</span> &lt;-<span class="st"> </span><span class="kw">lm</span>(sales <span class="op">~</span><span class="st"> </span>adverts, <span class="dt">data =</span> album2)
-  <span class="co"># zweites Modell</span>
-    albumSales<span class="fl">.3</span> &lt;-<span class="st"> </span><span class="kw">lm</span>(sales <span class="op">~</span><span class="st"> </span>adverts <span class="op">+</span><span class="st"> </span>airplay <span class="op">+</span><span class="st"> </span>attract, <span class="dt">data =</span> album2)
-  <span class="co"># Ausgabe Ergebnisse</span>
-    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">summary</span>(albumSales<span class="fl">.2</span>))
-    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">summary</span>(albumSales<span class="fl">.3</span>))
-  <span class="co"># Modellvergleich</span>
-    <span class="co"># library(car) fuer VIF    </span>
-    <span class="kw">anova</span>(albumSales<span class="fl">.2</span>, albumSales<span class="fl">.3</span>)
-    <span class="co"># library(car) fuer VIF    </span>
-    Tol &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">/</span>car<span class="op">::</span><span class="kw">vif</span>(albumSales<span class="fl">.3</span>)
-    VIF &lt;-<span class="st"> </span>car<span class="op">::</span><span class="kw">vif</span>(albumSales<span class="fl">.3</span>)</code></pre>
-<p><a href="multiple-regression.html#aufgabe-mlr-1">zurück zur Aufgabenstellung</a></p>
+<div id="aufgabe_2" class="section level2 unnumbered">
+<h2>Aufgabe_2</h2>
+<pre class="sourceCode r"><code class="sourceCode r">    <span class="co"># library(Hmisc)</span>
+
+    <span class="co"># 1. Berechnen Sie zuerst nochmal die Pearson-Korrelation $r(EQ,IQ)$ des bereits geladenen Datensatzes</span>
+    <span class="co">#    und rechnen Sie dann eine Spearman Korrelation. Verwenden Sie nun die Funktion cor() des Basispakets.</span>
+    <span class="co">#    Vergleichen Sie die Ergebnisse!</span>
+    
+    EP &lt;-<span class="st"> </span>DF_Korr<span class="op">$</span>EP
+    IQ &lt;-<span class="st"> </span>DF_Korr<span class="op">$</span>IQ
+    
+    CorPearson  &lt;-<span class="st"> </span><span class="kw">round</span>(<span class="kw">cor</span>(EP, IQ, <span class="dt">method =</span> <span class="st">&quot;pearson&quot;</span>), <span class="dv">2</span>)
+    CorSpearman &lt;-<span class="st"> </span><span class="kw">round</span>(<span class="kw">cor</span>(EP, IQ, <span class="dt">method =</span> <span class="st">&quot;spearman&quot;</span>), <span class="dv">2</span>)
+    CorKendall  &lt;-<span class="st"> </span><span class="kw">round</span>(<span class="kw">cor</span>(EP, IQ, <span class="dt">method =</span> <span class="st">&quot;kendall&quot;</span>), <span class="dv">2</span>)
+    
+    pander<span class="op">::</span><span class="kw">pander</span>(<span class="kw">data.frame</span>(<span class="dt">Pearson  =</span> CorPearson,
+                      <span class="dt">Spearman =</span> CorSpearman,
+                      <span class="dt">Kendall  =</span> CorKendall))
+    <span class="co"># Alternativ kann auch cor.test() verwendet werden, dabei werden die Tests auf</span>
+    <span class="co"># Signigikanz gleich mitgerechnet.</span>
+    <span class="co"># cor.test(x = EP, </span>
+    <span class="co">#          y = IQ, </span>
+    <span class="co">#          alternative = &#39;two.sided&#39;, </span>
+    <span class="co">#          method = &#39;pearson&#39;)    </span>
+    <span class="co"># cor.test(x = EP, </span>
+    <span class="co">#          y = IQ, </span>
+    <span class="co">#          alternative = &#39;two.sided&#39;, </span>
+    <span class="co">#          method = &#39;spearman&#39;)    </span>
+    <span class="co"># cor.test(x = EP, </span>
+    <span class="co">#          y = IQ, </span>
+    <span class="co">#          alternative = &#39;two.sided&#39;, </span>
+    <span class="co">#          method = &#39;kendall&#39;)    </span>
+    <span class="co"># Bemerkung: cor.test() mit Kendall bringt Warnung bezÃ¼glich der Rangbindungen.</span>
+    <span class="co">#            Alternativ kann man daher die Funktion Kendall() des Paketes Kendal verwenden:</span>
+      <span class="co"># library(Kendall)</span>
+        <span class="co"># Kendall(x = EP, </span>
+        <span class="co">#         y = IQ)</span>
+    <span class="co"># 2. Verwenden Sie die Funktion rank() um den Variablen EP und IQ RÃ¤nge zuzuordnen.</span>
+    <span class="co">#   Speichern Sie die Ergebnisse in EP_Ranks und IQ_Ranks und berechnen Sie anschlieÃŸend</span>
+    <span class="co">#   eine Pearson-Korrelation. Vergleichen Sie die Ergebnisse mit dem vorherigen Pearson-r.</span>
+    EP_Ranks &lt;-<span class="st"> </span><span class="kw">rank</span>(EP, <span class="dt">na.last =</span> <span class="ot">TRUE</span>,
+                     <span class="dt">ties.method =</span> <span class="kw">c</span>(<span class="st">&quot;average&quot;</span>))
+    IQ_Ranks &lt;-<span class="st"> </span><span class="kw">rank</span>(IQ, <span class="dt">na.last =</span> <span class="ot">TRUE</span>,
+                     <span class="dt">ties.method =</span> <span class="kw">c</span>(<span class="st">&quot;average&quot;</span>))
+    <span class="kw">round</span>(<span class="kw">cor</span>(EP_Ranks, IQ_Ranks, <span class="dt">method =</span> <span class="st">&quot;pearson&quot;</span>), <span class="dv">2</span>)</code></pre>
+<p><a href="korrelationen.html#spearman-und-kendall">zurück zu Aufgabe</a></p>
+</div>
+<div id="aufgabe_3" class="section level2 unnumbered">
+<h2>Aufgabe_3</h2>
+<pre class="sourceCode r"><code class="sourceCode r">    <span class="co"># Zuerst wird die Examensperformanz Ã¼ber den Median in zwei Gruppen geteilt</span>
+    <span class="co"># library(sjmisc)</span>
+    DF_Biserial &lt;-<span class="st"> </span>DF_Korr[<span class="kw">order</span>(EP), ]
+    DF_Biserial &lt;-<span class="st"> </span>sjmisc<span class="op">::</span><span class="kw">dicho</span>(DF_Biserial,
+                         <span class="dt">dich.by =</span> <span class="st">&quot;median&quot;</span>, 
+                         <span class="dt">as.num =</span> <span class="ot">FALSE</span>, 
+                         <span class="dt">var.label =</span> <span class="st">&quot;Grp&quot;</span>,
+                         <span class="dt">val.labels =</span> <span class="kw">c</span>(<span class="st">&quot;low&quot;</span>, <span class="st">&quot;high&quot;</span>), 
+                         <span class="dt">append =</span> <span class="ot">TRUE</span>, 
+                         <span class="dt">suffix =</span> <span class="st">&quot;_Grp&quot;</span>)
+    IQ          &lt;-<span class="st"> </span>DF_Biserial<span class="op">$</span>IQ
+    
+    <span class="kw">biserial</span>(<span class="dt">x =</span> IQ, <span class="dt">y =</span> DF_Biserial<span class="op">$</span>EP_Grp)    </code></pre>
+<p><a href="korrelationen.html#biseriale-korrelation">zurück zu Aufgabe</a></p>
 
 </div>
+</div>
+
+
+
+  <span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())
+  <span class="kw">graphics.off</span>()
+  <span class="cf">if</span> (<span class="op">!</span><span class="kw">require</span>(<span class="st">&quot;pacman&quot;</span>)) <span class="kw">install.packages</span>(<span class="st">&quot;pacman&quot;</span>)
+  pacman<span class="op">::</span><span class="kw">p_load</span>(car, DAAG, ggplot2, pander, ppcor, mosaicData, reshape2, rockchalk)</code></pre>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="multiple-regression.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="referenzen.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="korrelationen.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="multiple-regression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
